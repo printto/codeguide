@@ -22,7 +22,7 @@ double areaOf1Circle = Math.PI*r*r;
 double areaOf2Circle = (areaOf1Circle)*2;
 double areaOf3Circle = (areaOf1Circle)*3;
 ```
-
+Exercise: [Click here](https://github.com/printto/codeguide/blob/master/src/codeguide/DRY.java)
 Reference: [Don't Repeat Yourself](https://en.wikipedia.org/wiki/Don't_repeat_yourself)
 
 ## Avoid Almighty Classes, Use Meaningful Names
@@ -44,5 +44,5 @@ public static void mesureAndPrint(Runnable r){
 		System.out.printf("Elapsed time %.6f sec\n\n", timer.getElapsed());
 	}
 ```
-
+Exercise: [Click here](https://github.com/printto/codeguide/blob/master/src/codeguide/AvoidAlmightyClass.java)
 Reference: [Avoid Almighty Classes](https://www.codeproject.com/Articles/768052/Golden-Rules-Of-Good-OOP)
